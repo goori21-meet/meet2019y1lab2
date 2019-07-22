@@ -1,0 +1,12 @@
+a=5
+b=10
+c=a
+a=b
+b=c
+print(a)
+print(b)
+four='4'
+print(four*3)
+five="4"
+print(5)
+print(five*3)

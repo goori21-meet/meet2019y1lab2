@@ -1,0 +1,112 @@
+Python 3.6.8 (default, Jan 14 2019, 11:02:34) 
+[GCC 8.0.1 20180414 (experimental) [trunk revision 259383]] on linux
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+======== RESTART: /home/student/goori21_lab2/meet2019y1lab2/lab_2.py ========
+10
+10
+>>> 
+======== RESTART: /home/student/goori21_lab2/meet2019y1lab2/lab_2.py ========
+10
+5
+>>> 
+======== RESTART: /home/student/goori21_lab2/meet2019y1lab2/lab_2.py ========
+10
+5
+>>> 
+======== RESTART: /home/student/goori21_lab2/meet2019y1lab2/lab_2.py ========
+10
+5
+>>> 
+======== RESTART: /home/student/goori21_lab2/meet2019y1lab2/lab_2.py ========
+10
+5
+>>> 
+======== RESTART: /home/student/goori21_lab2/meet2019y1lab2/lab_2.py ========
+10
+5
+>>> 
+======== RESTART: /home/student/goori21_lab2/meet2019y1lab2/lab_2.py ========
+10
+5
+>>> four='4'
+>>> 
+======== RESTART: /home/student/goori21_lab2/meet2019y1lab2/lab_2.py ========
+10
+5
+10
+>>> 
+======== RESTART: /home/student/goori21_lab2/meet2019y1lab2/lab_2.py ========
+10
+5
+444
+>>> 
+======== RESTART: /home/student/goori21_lab2/meet2019y1lab2/lab_2.py ========
+10
+5
+444
+5
+>>> 
+======== RESTART: /home/student/goori21_lab2/meet2019y1lab2/lab_2.py ========
+10
+5
+444
+5
+444
+>>> my_name='student'
+>>> print("hi,"=myName)
+SyntaxError: keyword can't be an expression
+>>> print("hi,"+myname)
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    print("hi,"+myname)
+NameError: name 'myname' is not defined
+>>> print("hi,+my_name)
+	  
+SyntaxError: EOL while scanning string literal
+>>> print("hi,+my_Name')
+	  
+SyntaxError: EOL while scanning string literal
+>>> ("hi,"+my_name)
+	  
+'hi,student'
+>>> print('I am ' + my_age + 'years old')
+	  
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    print('I am ' + my_age + 'years old')
+NameError: name 'my_age' is not defined
+>>> my_age=15
+	  
+>>> print('I am ' + my_age + 'years old')
+	  
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    print('I am ' + my_age + 'years old')
+TypeError: must be str, not int
+>>> print('I am ' + "my_age" + 'years old')
+	  
+I am my_ageyears old
+>>> print('I am ' + 'my_age' + 'years old')
+	  
+I am my_ageyears old
+>>> my_age="15"
+	  
+>>> print('I am ' + my_age + 'years old')
+	  
+I am 15years old
+>>> >>> score = 4
+>>> count = "5"
+>>> total = (score * count)
+	  
+SyntaxError: invalid syntax
+>>> score = 4
+
+>>> count = "5"
+	  
+>>> total = (score * count)
+	  
+>>> print(total)
+	  
+5555
+>>> 
